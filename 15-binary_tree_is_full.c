@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_full - measures the balance factor of a binary tree
- * @tree: pointer to the root node of the tree to measure the balance
+ * binary_tree_is_full - function that checks if a binary tree is full
+ * @tree: Is a pointer to the root node of the tree to measure the balance
  * Return: 1 full 0 fail
  */
 int binary_tree_is_full(const binary_tree_t *tree)
